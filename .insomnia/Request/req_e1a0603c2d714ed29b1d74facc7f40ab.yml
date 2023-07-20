@@ -1,0 +1,23 @@
+_id: req_e1a0603c2d714ed29b1d74facc7f40ab
+type: Request
+parentId: fld_986b9b2e6b064a138279216b69110780
+modified: 1680637524423
+created: 1680179825824
+url: https://service.sitemercado.com.br/api/v1/pedido/eventos/26562
+name: iFood - Pedidos por Loja
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access_token }}"
+metaSortKey: -1680179170455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

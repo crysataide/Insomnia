@@ -1,0 +1,40 @@
+_id: req_ceab956b7c25495c950b69a32c27f0b6
+type: Request
+parentId: fld_986b9b2e6b064a138279216b69110780
+modified: 1680637503056
+created: 1680197543961
+url: https://service.sitemercado.com.br/api/v1/produtointegracao
+name: iFood - Alteração Produtos
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+        "idLoja": 33114,
+        "codigoBarra": "17420000",
+    		"quantidadeEstoqueAtual": 0,
+        "ativo": "false"
+      }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/*+json
+    id: pair_964c985fc46147d5885f77cbf088bb08
+  - id: pair_f8c258992ebc4bf9bde583e64c0f687c
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.access_token }}"
+metaSortKey: -1680179170517.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

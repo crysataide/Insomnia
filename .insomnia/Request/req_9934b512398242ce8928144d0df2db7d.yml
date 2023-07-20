@@ -1,0 +1,50 @@
+_id: req_9934b512398242ce8928144d0df2db7d
+type: Request
+parentId: fld_986b9b2e6b064a138279216b69110780
+modified: 1680637493182
+created: 1680181536347
+url: https://service.sitemercado.com.br/api/v1/produtointegracao
+name: iFood - Integração Produtos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    [
+      {
+        "idLoja": "33114",
+        "departamento": "DESCARTAVEIS",
+        "categoria": "PORTA ALIMENTOS",
+        "unidade": "UN    ",
+        "codigoBarra": 17420000.0,
+        "nome": "PORTA G-07 MULTIUSO 200ML CRISTAL UN",
+        "valor": 0.55,
+        "valorAtacado": 0.45,
+        "quantidadeEstoqueAtual": 193,
+        "quantidadeAtacado": 199,
+        "descricao": "PORTA G-07 MULTIUSO 200ML CRIS",
+        "ativo": "false",
+        "plu": 17420000.0,
+        "ImageURL": "https:\\/\\/voltaasaulasqueiroz.com\\/protheus_img\\/001742.jpg"
+      }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/*+json
+    id: pair_964c985fc46147d5885f77cbf088bb08
+  - id: pair_f8c258992ebc4bf9bde583e64c0f687c
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.access_token }}"
+metaSortKey: -1680179170530
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

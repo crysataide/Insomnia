@@ -1,0 +1,30 @@
+_id: req_76a9df1a4df14fa5978686d423683882
+type: Request
+parentId: fld_ce1afafa93394ccd9e2b86a950707cac
+modified: 1689878949977
+created: 1689874417593
+url: https://lojasqueiroz.layer.core.dcg.com.br/v1/Catalog/API.svc/web/SearchWarehouse
+name: Buscar Sellers
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_5b83fc5b63ca49f1ab77fd80b8d5ed1f
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.token }}"
+  password: ""
+metaSortKey: -1680532270736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

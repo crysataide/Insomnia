@@ -1,0 +1,37 @@
+_id: req_c138115201f84224b00e364b9f273a8f
+type: Request
+parentId: fld_ce1afafa93394ccd9e2b86a950707cac
+modified: 1689880784351
+created: 1689879404826
+url: https://lojasqueiroz.layer.core.dcg.com.br/v1/LinxIO/API.svc/web/GetOrder
+name: Busca Pedidos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "1048460"
+    }
+parameters: []
+headers:
+  - id: pair_f39f67c431eb4e4398b8cf422f5620c1
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.token }}"
+  password: ""
+metaSortKey: -1689879404826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

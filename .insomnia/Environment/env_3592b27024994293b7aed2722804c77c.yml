@@ -1,0 +1,14 @@
+_id: env_3592b27024994293b7aed2722804c77c
+type: Environment
+parentId: env_45494d082eaa5a26156a7fdf333a713e5de752a8
+modified: 1689880496402
+created: 1689878768200
+name: ECOMMERCE
+data:
+  token: Y29uZWN0b3IucXVlaXJvejpsb2phc3F1ZWlyb3o=
+dataPropertyOrder:
+  "&":
+    - token
+color: "#00ff2a"
+isPrivate: false
+metaSortKey: 1689878768200

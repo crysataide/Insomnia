@@ -1,0 +1,30 @@
+_id: req_5660ea719cea42d7aa7033f05a050ce6
+type: Request
+parentId: fld_ce1afafa93394ccd9e2b86a950707cac
+modified: 1689878995885
+created: 1689878251126
+url: https://lojasqueiroz.layer.core.dcg.com.br/v1/Queue/API.svc/web/SearchQueueItems
+name: Pesquisar Itens na Fila
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_e1d6af73f0fe4e098f09f9d95d19f741
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.token }}"
+  password: ""
+metaSortKey: -1680532270686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

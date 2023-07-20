@@ -1,0 +1,23 @@
+_id: req_a322d8e9e13744958bd4d89e9ad0a840
+type: Request
+parentId: fld_986b9b2e6b064a138279216b69110780
+modified: 1680637535263
+created: 1680181204924
+url: https://service.sitemercado.com.br/api/v1/pedido/26562-C83366324
+name: iFood - Info Pedido
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.access_token }}"
+metaSortKey: -1680179170405
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_4f45a412fbdb40bb9fd9babb05dbfb80
+type: Request
+parentId: fld_ce1afafa93394ccd9e2b86a950707cac
+modified: 1689878905785
+created: 1680532270786
+url: https://lojasqueiroz.layer.core.dcg.com.br/v1/Catalog/API.svc/web/GetProduct
+name: Busca Produtos
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ID": 3210
+    }
+parameters:
+  - id: pair_0a46c7111bd846dca1964ab9451c11e9
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_ec5bb10a1f9c4e20bda364be6eda77e4
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.token }}"
+  password: ""
+metaSortKey: -1680532270786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

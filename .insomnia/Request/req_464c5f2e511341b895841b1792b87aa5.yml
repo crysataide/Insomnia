@@ -1,0 +1,27 @@
+_id: req_464c5f2e511341b895841b1792b87aa5
+type: Request
+parentId: fld_986b9b2e6b064a138279216b69110780
+modified: 1680637510111
+created: 1680179350623
+url: https://service.sitemercado.com.br/api/v1/loja
+name: iFood - Lojas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8b481ba1b93f4c19be26966664212ce9
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.access_token }}"
+metaSortKey: -1680179170505
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
